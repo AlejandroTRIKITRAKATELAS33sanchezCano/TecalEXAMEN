@@ -11,7 +11,7 @@ module.exports = {
         },
     },
     server: {
-        port: 3030 || process.env.PORT ,
+        port: process.env.PORT ,
         refreshRate: 10
     },
 };
